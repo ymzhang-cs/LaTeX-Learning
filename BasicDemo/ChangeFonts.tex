@@ -1,0 +1,25 @@
+% Instraction Start
+\documentclass{ctexart}
+% It can be {article} or {report} or {book} or {letter} or {beamer}
+
+%\usepackage{ctex}
+% 引入中文宏包
+% 如使用ctexart文档类，即不需要usepackage
+% ctex中，ctexart对应article文档类，ctexrep对应report文档类，ctexbook对应book文档类，ctexbeamer对应beamer文档类，暂未发现对应letter的文档类
+
+\title{如何更改字体}
+\author{zymzs}
+\date{\today}
+% Instraction End
+
+% The main document Start
+\begin{document}
+	\maketitle
+	
+	%字体族设置（罗马字体、无衬线字体、打字机字体）
+	\textrm{Source Han Serif CN}	\textsf{Source Han Sans CN} \texttt{Consolas}
+
+	\rmfamily Source Han Serif CN	 {\sffamily Source Han Sans CN} {\ttfamily Consolas}
+
+\end{document}
+% The main document End
